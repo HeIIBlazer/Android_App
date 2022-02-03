@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1FFFF"
+    tools:context=".MainActivity5">
+
+    <Button
+        android:id="@+id/knopka9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="16dp"
+        android:text="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/knopka8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/opinionHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="112dp"
+        android:text="Моё мнение об Android Studio"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/opinion"
+        android:layout_width="328dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="43dp"
+        android:background="#FFFFFF"
+        android:justificationMode="inter_word"
+        android:text="Программа имеет много не доработок. Мое первое знакомство с ней началось с трудностей. у меня было куча ошибок, а при работе в начале урока у меня не работала половина функций и не запускался эмулятор. Но если закрыть глаза на эти минусы програама классная!"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opinionHeading" />
+</androidx.constraintlayout.widget.ConstraintLayout>
